@@ -3,15 +3,52 @@
 // endbower
 @import "settings";
 
+@include foundation-global-styles;
 
-@include foundation-grid;
+// Components
+@include foundation-flex-classes;
 @include foundation-flex-grid;
+
 @include foundation-typography;
+@include foundation-visibility-classes;
 @include foundation-forms;
 @include foundation-button;
 @include foundation-button-group;
 @include foundation-card;
-@include foundation-pagination;
+
+@include pagination-container;
+@include pagination-item-current;
+@include pagination-item-disabled;
+@include pagination-ellipsis;
+//@import 'components/float';
+//@import 'components/accordion-menu';
+//@import 'components/accordion';
+//@import 'components/badge';
+//@import 'components/breadcrumbs';
+//@import 'components/callout';
+//@import 'components/close-button';
+//@import 'components/drilldown';
+//@import 'components/dropdown-menu';
+//@import 'components/dropdown';
+//@import 'components/responsive-embed';
+//@import 'components/label';
+//@import 'components/media-object';
+//@import 'components/menu';
+//@import 'components/menu-icon';
+//@import 'components/off-canvas';
+//@import 'components/orbit';
+//@import 'components/pagination';
+//@import 'components/progress-bar';
+//@import 'components/reveal';
+//@import 'components/slider';
+//@import 'components/sticky';
+//@import 'components/switch';
+//@import 'components/table';
+//@import 'components/tabs';
+//@import 'components/title-bar';
+//@import 'components/top-bar';
+//@import 'components/thumbnail';
+//@import 'components/tooltip';
 
 @import "components/product_card";
 

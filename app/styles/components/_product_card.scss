@@ -27,19 +27,21 @@
   font-size: 0.85rem;
 }
 
+.product-card-prices{
+  float: left;
+  margin-right: 1rem;
+}
+
 .product-card-price {
   color: #3e3e3e;
-  display: inline-block;
-  font-size: 0.85rem;
+  font-size: 1.125rem;
   font-weight: 600;
-  margin-top: 0.8rem;
+  line-height: 1;
 }
 
 .product-card-sale {
   color: #cacaca;
-  display: inline-block;
   font-size: 0.85rem;
-  margin-left: 0.3rem;
   text-decoration: line-through;
 }
 

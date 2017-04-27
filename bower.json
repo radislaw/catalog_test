@@ -1,0 +1,12 @@
+{
+  "name": "catalog-test",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "foundation-sites": "^6.3.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0"
+  }
+}
